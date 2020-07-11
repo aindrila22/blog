@@ -1,0 +1,150 @@
+  /* created for device width 1024 */
+ @media only screen and (max-device-width: 1024px) {
+    .container a {
+      float: none;
+      text-align: left;
+   
+   
+    }
+
+    .button6{
+  display: block;
+  margin: 0.4em auto ;
+  }
+  
+    .panel-heading{
+      float: none;
+      font-size: 3vw;
+  
+    }
+    .name{
+      float: none;
+      font-size: 2vw;
+    }
+  
+    .content{
+      float: none;
+      font-size: 3vw;
+  
+    }
+    .form-inline{
+      float: none;
+    }
+    .form-control{
+      float: none;
+    }
+   }
+
+   /* created for device width 768px  */
+   @media screen and (min-device-width: 768px) {
+    .container a {
+      float: none;
+      text-align: left;
+   
+    }
+    .button6{
+  display: block;
+  margin: 0.4em auto ;
+  }
+  
+    .panel-heading{
+      float: none;
+      font-size: 3vw;
+  
+    }
+    .name{
+      float: none;
+      font-size: 1.2vw;
+    }
+    .content{
+      float: none;
+      font-size: 3vw;
+  
+    }
+    .form-inline{
+      float: none;
+    }
+    .form-control{
+      float: none;
+    }
+    .btn2{
+      float: none;
+      width: 7vw;
+      height: 3vw;
+      background: green;
+      color: white;
+      border-radius: 0.5vw;
+      position: absolute;
+    
+    }
+   }
+
+   /* contents for web  */
+  .navbar-collapse hover{
+    color:blue;
+  }
+  .navbar{
+    color:	rgb(255,105,180,0.2);
+  }
+  .container2-sm{
+  
+  height: 9%;  
+  background: 	rgb(255,105,180,0.5);
+  color: navy;
+  font-style: verdana;
+  font-size: 1.8vw;
+  text-align: center;
+  
+  }
+
+
+  .button6{
+  
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  margin : 0 0.3em 0.3em 0;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  text-transform:uppercase;
+  font-weight:400;
+  color:#FFFFFF;
+  background-color: rgb(255,20,147);
+  box-shadow:inset 0 -0.6em 0 -0.35em 	rgb(199,21,133,0.2);
+  text-align:center;
+  position:relative;
+  }
+
+
+  .button6:active{
+  top:0.1em;
+  }
+
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .active-pink-textarea-2 textarea.md-textarea {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+  }
+
+
+  .active-pink-textarea-2.md-form label.active {
+    color: #f48fb1;
+  }
+
+
+  .active-pink-textarea-2.md-form label {
+    color: #f48fb1;
+  }
+
+  
+  .active-pink-textarea-2.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: #f48fb1;
+  }
+  
